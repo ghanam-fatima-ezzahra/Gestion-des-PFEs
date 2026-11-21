@@ -1,0 +1,647 @@
+/* ===== STYLES GÉNÉRAUX ===== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Fond clair */
+    color: #333; /* Texte gris foncé */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* ===== HEADER ===== */
+.site-header {
+    background-color: #ffffff; /* Blanc */
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 3px solid #6a0dad; /* Violet */
+    width: 100%;
+}
+
+.site-title {
+    font-size: 2rem;
+    color: #2565ae; /* Bleu */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.site-logo {
+    height: 50px;
+    width: auto;
+}
+
+.user-info {
+    font-size: 1.2rem;
+    color: #000000; /* Noir */
+}
+
+.user-info em {
+    color: #2565ae; /* Bleu pour le profil */
+    font-style: normal;
+    font-weight: bold;
+}
+
+.user-info span {
+    color: #6a0dad; /* Violet pour le nom */
+    font-weight: bold;
+}
+
+/* ===== MAIN ===== */
+.main-content {
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff; /* Fond blanc */
+    border: 1px solid #ddd; /* Bordure grise */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.main-content h1 {
+    font-size: 2rem;
+    color: #6a0dad; /* Violet */
+    margin-bottom: 20px;
+}
+
+.intro-section p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.search-form {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-input {
+    padding: 10px;
+    border: 1px solid #2565ae; /* Bleu */
+    border-radius: 4px 0 0 4px;
+    width: 300px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #2565ae; /* Bleu */
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #6a0dad; /* Violet */
+}
+
+.btn-connect {
+    color: #007bff; /* Bleu */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-connect:hover {
+    text-decoration: underline;
+}
+/* ===== NAVIGATION ===== */
+.main-nav {
+    background-color: #2565ae; /* Bleu */
+    padding: 10px 20px;
+    text-align: center;
+    border-bottom: 3px solid #6a0dad; /* Violet */
+}
+
+.main-nav a {
+    color: #ffffff; /* Blanc */
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.main-nav a:hover {
+    background-color: #6a0dad; /* Violet */
+    color: #ffffff; /* Blanc */
+}
+
+.main-nav .logout-link {
+    color: #ff4d4d; /* Rouge clair pour déconnexion */
+}
+
+.main-nav .logout-link:hover {
+    background-color: #ff4d4d; /* Rouge clair */
+    color: #ffffff; /* Blanc */
+}
+
+.main-nav hr {
+    margin-top: 10px;
+    border: none;
+    border-top: 1px solid #ffffff; /* Ligne blanche */
+}
+/* ===== encadrement_prof===== */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Fond clair */
+    color: #333; /* Texte gris foncé */
+}
+
+.page-title {
+    text-align: center;
+    color: #333;
+    margin: 20px 0;
+    font-size: 1.8rem;
+}
+
+/* ===== TABLE ===== */
+.pfe-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #ffffff; /* Fond blanc */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.pfe-table th, .pfe-table td {
+    padding: 10px;
+    border: 1px solid #ddd; /* Bordure grise */
+}
+
+.table-header {
+    background-color: #007bff; /* Bleu */
+    color: white;
+}
+
+.table-row-even {
+    background-color: #f9f9f9; /* Gris clair */
+}
+
+.table-row-odd {
+    background-color: #ffffff; /* Blanc */
+}
+
+/* ===== LIENS ===== */
+.rapport-link, .action-link {
+    color: #007bff; /* Bleu */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.rapport-link:hover, .action-link:hover {
+    text-decoration: underline;
+    color: #6a0dad; /* Violet */
+}
+/* ===== modifier_pfe_prof ===== */
+
+.modifier-pfe-body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Fond clair */
+}
+
+.modifier-pfe-container {
+    border: 1px solid #000;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    background-color: #ffffff; /* Fond blanc */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    border-radius: 8px;
+}
+
+.modifier-pfe-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.modifier-pfe-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.modifier-pfe-form label {
+    text-align: left;
+    font-weight: bold;
+    color: #333;
+}
+
+.modifier-pfe-form input,
+.modifier-pfe-form textarea {
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.modifier-pfe-form textarea {
+    resize: none;
+}
+
+.modifier-pfe-form button {
+    padding: 10px;
+    border: none;
+    background-color: #2565ae; /* Bleu */
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.modifier-pfe-form button:hover {
+    background-color: #6a0dad; /* Violet */
+}
+
+.modifier-pfe-back {
+    margin-top: 10px;
+}
+
+.modifier-pfe-back a {
+    text-decoration: none;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    display: inline-block;
+    color: #333;
+    background-color: #f1f1f1; /* Gris clair */
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.modifier-pfe-back a:hover {
+    background-color: #6a0dad; /* Violet */
+    color: white;
+}
+/* ===== PFE ÉTUDIANT ===== */
+.pfe-main {
+    margin: 20px auto;
+    max-width: 800px;
+    font-family: Arial, sans-serif;
+}
+
+.pfe-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9; /* Fond clair */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.pfe-container p {
+    margin: 10px 0;
+    line-height: 1.6;
+    color: #333; /* Texte gris foncé */
+}
+
+.pfe-container strong {
+    color: #000; /* Texte noir pour les titres */
+}
+
+.rapport-link {
+    color: #007bff; /* Bleu */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.rapport-link:hover {
+    text-decoration: underline;
+    color: #6a0dad; /* Violet */
+}
+
+/* ===== BOUTONS ===== */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-green {
+    background-color: green;
+}
+
+.btn-green:hover {
+    background-color: darkgreen;
+}
+
+.btn-blue {
+    background-color: blue;
+}
+
+.btn-blue:hover {
+    background-color: darkblue;
+}
+/* ===== editer PFE ===== */
+.edit-pfe-body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9; /* Fond clair */
+    font-family: Arial, sans-serif;
+}
+
+.edit-pfe-form {
+    background-color: #ffffff; /* Fond blanc */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.edit-pfe-form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.edit-pfe-message {
+    text-align: center;
+    color: red;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.edit-pfe-form label {
+    font-weight: bold;
+    color: #555;
+}
+
+.edit-pfe-form input,
+.edit-pfe-form textarea,
+.edit-pfe-form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.edit-pfe-form textarea {
+    resize: none;
+}
+
+.btn {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Bleu */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Bleu foncé */
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Gris */
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268; /* Gris foncé */
+}
+/* Styles pour la page Contact */
+.contact-main {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-main h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    color: #555;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+/* Styles pour la page FAQ */
+.faq-main {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.faq-main h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq-item {
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item h3 {
+    margin: 0 0 10px;
+    color: #007BFF;
+}
+
+.faq-item p {
+    margin: 0;
+    color: #555;
+    line-height: 1.6;
+}
+.messages-main {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.messages-main h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.message {
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.message h3 {
+    margin: 0 0 10px;
+    color: #007BFF;
+}
+
+.message p {
+    margin: 5px 0;
+    color: #555;
+    line-height: 1.6;
+}
+.statistiques {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.statistiques p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+/* ===== FOOTER ===== */
+.site-footer {
+    background-color: #f1f1f1; /* Gris clair */
+    color: #333; /* Gris foncé */
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    border-top: 3px solid #6a0dad; /* Bordure violette */
+    width: 100%;
+}
+
+.site-footer p {
+    margin: 5px 0;
+}
+
+.footer-link {
+    color: #007bff; /* Bleu */
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
